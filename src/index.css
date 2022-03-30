@@ -15,7 +15,11 @@ nav {
   padding-bottom: 1rem;
 }
 
-.list {
+.invoice-list {
   display: block;
   margin: 1rem 0;
+}
+
+div > p {
+  padding: 1rem;
 }
