@@ -10,16 +10,29 @@ main {
   padding: 1rem 0;
 }
 
-nav {
+div > p {
+  padding: 1rem;
+}
+
+.select-item {
   border-bottom: solid 1px;
   padding-bottom: 1rem;
 }
 
 .invoice-list {
+  display: flex;
+}
+
+.invoice-list > nav {
+  border-right: solid 1px;
+  padding: 1rem;
+}
+
+.invoice-list > nav a {
   display: block;
   margin: 1rem 0;
 }
 
-div > p {
+.invoice-list > main {
   padding: 1rem;
 }
