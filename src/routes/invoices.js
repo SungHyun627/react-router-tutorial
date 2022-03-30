@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import { getInvoices } from '../data';
 
-export default function invoices() {
+export default function Invoices() {
   let invoices = getInvoices();
   return (
     <div className="invoice-list">
@@ -12,6 +12,7 @@ export default function invoices() {
           </Link>
         ))}
       </nav>
+      <Outlet />
     </div>
   );
 }
